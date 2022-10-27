@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+</head>
+<body>
+    <table-so id="table_name" src="table_name" api="https://jsonplaceholder.typicode.com/posts">
+        <row-so column="userId" type="number"></row-so>
+        <row-so column="id" format="number(0-9, 20)" type="text"></row-so>
+        <row-so column="body" format="dd.MM.yyyy" type="date"></row-so>
+        <row-so column="title" format="text" type="text"></row-so>
+    </table-so>
+</body>
+<script type="module" src="js/table.js"></script>
+<script type="module" src="js/row.js"></script>
+</html>
